@@ -1,0 +1,28 @@
+{
+  "name": "lighthouse-sandbox",
+  "version": "0.0.1",
+  "description": "A sandbox to muck about with chromes lighthouse api",
+  "main": "index.js",
+  "scripts": {
+	"lighthouse": "lighthouse",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wookets/lighthouse-sandbox.git"
+  },
+  "keywords": [
+    "lighthouse",
+    "chrome",
+    "performance"
+  ],
+  "author": "wookets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wookets/lighthouse-sandbox/issues"
+  },
+  "homepage": "https://github.com/wookets/lighthouse-sandbox#readme",
+  "dependencies": {
+    "lighthouse": "2.4.0"
+  }
+}
