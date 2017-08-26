@@ -7,6 +7,7 @@ const fs = require('fs');
 
 const pages = [
 	'homepage|https://www.bestbuy.com',
+	'errorpage|https://www.bestbuy.com/errorpage',
 	'hottest-deals|https://www.bestbuy.com/site/clp/sale-page/pcmcat185700050011.c?id=pcmcat185700050011',
 	'brands|https://www.bestbuy.com/site/electronics/brands/pcmcat128500050004.c?id=pcmcat128500050004',
 	'brand-apple|https://www.bestbuy.com/site/brands/apple/pcmcat128500050005.c?id=pcmcat128500050005',
