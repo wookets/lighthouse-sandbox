@@ -59,5 +59,5 @@ function promiseSerial (funcs) {
 const audits = pages.map(page => () => audit(page)); // wrap every call in a function, so it is delayed
 
 promiseSerial(audits).then( () => {
-	console.log('all done');
+	console.log('All done');
 })
