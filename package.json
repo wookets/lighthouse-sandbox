@@ -4,8 +4,12 @@
   "description": "A sandbox to muck about with chromes lighthouse api",
   "main": "index.js",
   "scripts": {
-	"lighthouse": "lighthouse",
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"homepage": "lighthouse https://www.bestbuy.com --output-path=./results/homepage.html",
+	"plp": "lighthouse https://www.bestbuy.com --output-path=./results/plp.html",
+	"pdp": "lighthouse https://www.bestbuy.com --output-path=./results/pdp.html",
+	"category-page": "lighthouse https://www.bestbuy.com/site/home-appliances/refrigerators/abcat0901000.c?id=abcat0901000 --output-path=./results/category-page.html",
+	"brand-page": "lighthouse https://www.bestbuy.com/site/electronics/brands/pcmcat128500050004.c?id=pcmcat128500050004 --output-path=./results/brand-page.html",
+	"store-locator": "lighthouse https://www.bestbuy.com/site/store-locator/55401 --output-path=./results/store-locator.html"
   },
   "repository": {
     "type": "git",
