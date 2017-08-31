@@ -24,7 +24,11 @@ const pages = [
 	'student-hub|https://www.bestbuy.com/site/misc/back-to-school/pcmcat334100050000.c?id=pcmcat334100050000',
 	'easy-replenish|https://www.bestbuy.com/site/clp/easy-replenish-ink/pcmcat1490655105296.c?id=pcmcat1490655105296',
 	'garage-tech|https://www.bestbuy.com/site/home/garage/pcmcat1491248908587.c?id=pcmcat1491248908587',
-	'price-match-guarentee|https://www.bestbuy.com/site/customer-service/price-match-guarantee/pcmcat290300050002.c?id=pcmcat290300050002'
+	'price-match-guarentee|https://www.bestbuy.com/site/customer-service/price-match-guarantee/pcmcat290300050002.c?id=pcmcat290300050002',
+	'search-apple-ipad|https://www.bestbuy.com/site/searchpage.jsp?st=apple+ipad&_dyncharset=UTF-8&id=pcat17071&type=page&sc=Global&cp=1&nrp=&sp=&qp=&list=n&af=true&iht=y&usc=All+Categories&ks=960&keys=keys',
+	'pdp-apple-ipad|https://www.bestbuy.com/site/apple-ipad-latest-model-with-wifi-32gb-space-gray/4907703.p?skuId=4907703',
+	'pdp-video-game|https://www.bestbuy.com/site/kingdom-hearts-hd-1-5-2-5-remix-playstation-4/5698800.p?skuId=5698800',
+	
 ];
 
 function launchChromeAndRunLighthouse (url, flags = {}, config = null) {
