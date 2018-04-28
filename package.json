@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/wookets/lighthouse-sandbox#readme",
   "dependencies": {
-    "lighthouse": "2.4.0"
+    "lighthouse": "2.9.4"
   }
 }
